@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@300;400;700;800&display=swap');
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens: define colors and fonts via @theme */
+@theme {
+    /* Font family */
+    --font-sans: "LINE Seed JP", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-heading: "LINE Seed JP", sans-serif;
+    --font-body: "LINE Seed JP", sans-serif;
+
+    /* Brand colors */
+    --color-white: #ffffff;
+    --color-text: #4b4457;
+    --color-background: #ffffff;
+    --color-primary: #aa8ad4;
+    --color-secondary: #d7cceb;
+    --color-accent: #765c99;
+
+    /* Font sizes */
+    --font-size-sm: 0.750rem;
+    --font-size-base: 1rem;
+    --font-size-xl: 1.333rem;
+    --font-size-2xl: 1.777rem;
+    --font-size-3xl: 2.369rem;
+    --font-size-4xl: 3.158rem;
+    --font-size-5xl: 4.210rem;
+
+    /* Custom breakpoints */
+    --breakpoint-3xl: 1800px;
+}
+
+@layer base {
+    html {
+        font-family: var(--font-sans);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-20px) scale(1.05);
+    }
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 200px 200px;
+    }
+}
+
+@layer components {
+    button {
+        @apply cursor-pointer;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .background-glow {
+        position: absolute;
+        inset: 0;
+        background:
+            radial-gradient(ellipse 550px 480px at 20% 35%, rgba(181, 178, 255, 0.1), transparent 55%),
+            radial-gradient(ellipse 620px 420px at 75% 20%, rgba(208, 207, 240, 0.3), transparent 60%),
+            radial-gradient(circle 380px at 45% 75%, rgba(119, 97, 207, 0.1), transparent 50%),
+            radial-gradient(ellipse 680px 520px at 15% 65%, rgba(181, 178, 255, 0.13), transparent 65%),
+            radial-gradient(ellipse 450px 580px at 88% 55%, rgba(119, 97, 207, 0.2), transparent 58%),
+            radial-gradient(circle 320px at 70% 65%, rgba(208, 207, 240, 0.12), transparent 52%),
+            radial-gradient(ellipse 590px 410px at 35% 15%, rgba(181, 178, 255, 0.08), transparent 62%),
+            radial-gradient(ellipse 500px 530px at 60% 40%, rgba(119, 97, 207, 0.11), transparent 56%),
+            radial-gradient(circle 290px at 10% 25%, rgba(208, 207, 240, 0.14), transparent 48%),
+            radial-gradient(ellipse 640px 490px at 80% 85%, rgba(181, 178, 255, 0.09), transparent 61%);
+        filter: blur(60px);
+        pointer-events: none;
+    }
+}

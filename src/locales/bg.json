@@ -1,0 +1,302 @@
+{
+  "nav": {
+    "login": "Вход",
+    "logout": "Изход",
+    "settings": "Настройки",
+    "openApp": "Отвори приложението",
+    "settingsAriaLabel": "Настройки",
+    "logoutAriaLabel": "Изход",
+    "toggleMenuAriaLabel": "Превклю­чване на меню",
+    "dashboard": "Начало",
+    "lists": "Списъци",
+    "history": "История"
+  },
+  "landing": {
+    "hero": {
+      "title1": "Планирай покупките си.",
+      "title2": "Пазарувай",
+      "title3": "Разумно.",
+      "subtitle": "Създавай списъци за пазаруване и\nуправлявай бюджета си с лекота.",
+      "description": "Започни днес и поеми контрол над пазаруването си.",
+      "cta": "Започни сега",
+      "openApp": "Отвори приложението"
+    },
+    "features": {
+      "title": "Какво предлагаме",
+      "lists": {
+        "title": "Създаване и организиране на списъци",
+        "description": "Създавайте и управлявайте списъци за пазаруване за различни поводи и бюджети."
+      },
+      "spending": {
+        "title": "Проследяване на разходите",
+        "description": "Следете разходите си и се придържайте към бюджетния план."
+      },
+      "habits": {
+        "title": "Анализ на навиците за пазаруване",
+        "description": "Разберете повече за себе си и това как пазарувате, за да вземате по-умни решения."
+      }
+    },
+    "cta": {
+      "title": "Готови ли сте да започнете да планирате покупките си?",
+      "description": "Създайте собствен акаунт и започнете сега!",
+      "button": "Започни сега",
+      "openApp": "Отвори приложението"
+    },
+    "footer": {
+      "copyright": "© 2026 Shopplanr. Всички права запазени."
+    }
+  },
+  "login": {
+    "subtitle": "Влезте в акаунта си, за да продължите",
+    "email": "Имейл",
+    "password": "Парола",
+    "submit": "Вход",
+    "submitting": "Влизане...",
+    "noAccount": "Нямате акаунт?",
+    "createOne": "Създайте",
+    "goBack": "Назад"
+  },
+  "signup": {
+    "subtitle": "Създайте акаунта си, за да започнете",
+    "email": "Имейл",
+    "password": "Парола",
+    "confirmPassword": "Потвърдете паролата",
+    "submit": "Регистрация",
+    "submitting": "Създаване на акаунт...",
+    "hasAccount": "Вече имате акаунт?",
+    "logIn": "Влезте",
+    "goBack": "Назад",
+    "passwordMismatch": "Паролите не съвпадат"
+  },
+  "confirmEmail": {
+    "title": "Проверете имейла си",
+    "description": "Изпратихме ви имейл за потвърждение. Моля, кликнете върху линка в имейла, за да потвърдите акаунта си.",
+    "checkSpam": "Не можете да го намерите? Проверете папката за спам.",
+    "goToLogin": "Към вход"
+  },
+  "language": {
+    "en": "English",
+    "bg": "Български"
+  },
+  "settings": {
+    "title": "Настройки на акаунта",
+    "accountInfo": "Информация",
+    "email": "Имейл",
+    "accountCreated": "Акаунтът е създаден",
+    "changePassword": "Смяна на паролата",
+    "newPassword": "Нова парола",
+    "confirmPassword": "Потвърдете паролата",
+    "updatePassword": "Актуализиране на паролата",
+    "updating": "Актуализиране...",
+    "passwordMismatch": "Паролите не съвпадат",
+    "passwordTooShort": "Паролата трябва да бъде поне 6 знака",
+    "passwordChangeSuccess": "Паролата е актуализирана успешно",
+    "dangerZone": "Изтриване на акаунта",
+    "deleteWarning": "Ако изтриете акаунта си, няма връщане назад. Моля, бъдете внимателни.",
+    "deleteAccount": "Изтриване на акаунта",
+    "deleteConfirmation": "Сигурни ли сте? Това действие не може да бъде отменено.",
+    "typeEmailToConfirm": "Въведете имейла си за потвърждение",
+    "confirmDelete": "Да, изтрий акаунта",
+    "deleting": "Изтриване...",
+    "cancel": "Отказ",
+    "deleteEmailMismatch": "Имейлът не съвпада. Моля, опитайте отново."
+  },
+  "admin": {
+    "nav": {
+      "stats": "Статистика",
+      "users": "Потребители"
+    },
+    "stats": {
+      "title": "Статистика",
+      "subtitle": "Преглед на ефективността на платформата и потребителската активност",
+      "totalUsers": "Общо потребители",
+      "activeLists": "Активни списъци",
+      "avgNewUsersPerDay": "Ср. бр. нови потребители/ден",
+      "chartTitle": "Нови регистрации",
+      "chartSubtitle": "Брой на нови потребители регистрирани за ден",
+      "days7": "7 дни",
+      "days30": "30 дни",
+      "days90": "90 дни",
+      "noSignups": "Няма регистрирани потребители в избрания период",
+      "chartLabel": "Нови потребители",
+      "chartValueSingular": "{{count}} потребител",
+      "chartValuePlural": "{{count}} потребители"
+    },
+    "users": {
+      "title": "Управление на потребители",
+      "subtitle": "Управлявайте всички регистрирани потребители на платформата",
+      "searchPlaceholder": "Търсене по имейл...",
+      "noUsersFound": "Няма намерени потребители",
+      "noUsersMatch": "Няма потребители, отговарящи на търсенето",
+      "columnEmail": "Имейл",
+      "columnCreatedAt": "Създаден на",
+      "columnUserId": "Потребителски ID",
+      "columnActions": "Действия",
+      "totalUsers": "Общ брой потребители",
+      "showingUsers": "Показани {{filtered}} от {{total}} потребители"
+    },
+    "deleteUser": "Изтриване",
+    "deleteUserTitle": "Сигурни ли сте?",
+    "deleteUserWarning": "Този потребител ще бъде изтрит от системата.",
+    "userEmail": "Имейл на потребителя",
+    "confirmDelete": "Изтрий",
+    "cancel": "Отказ"
+  },
+  "dashboard": {
+    "title": "Добре дошли, {{email}}!",
+    "subtitle": "Бърз преглед на вашия план за пазаруване.",
+    "goToLists": "Към списъците",
+    "refreshOverview": "Опресняване",
+    "statisticsError": "Неуспешно зареждане на статистика",
+    "statsLists": "Списъци",
+    "statsItems": "Артикули",
+    "statsTotalCost": "Обща цена",
+    "statsBudgeted": "Общ бюджет",
+    "statsTotalSpent": "Общ разход",
+    "moneySpent": "Разходи",
+    "moneySpentDescription": "Разходи с течение на времето.",
+    "spendingOverTime": "Разход с течение на времето",
+    "chartLabel": "Разход",
+    "days7": "7 дни",
+    "days30": "30 дни",
+    "days90": "90 дни",
+    "noHistory": "Няма закупени продукти. Маркирайте продукти като закупени, за да видите отчет тук."
+  },
+  "lists": {
+    "title": "Списъци за пазаруване",
+    "subtitle": "Управлявайте списъците си за пазаруване",
+    "add": "Добави",
+    "addList": "Добави списък",
+    "searchPlaceholder": "Търси списъци по име...",
+    "noLists": "Няма създадени списъци",
+    "createYourFirst": "Създайте първия си списък, за да започнете.",
+    "noMatches": "Няма намерени списъци",
+    "namePlaceholder": "напр. Хранителни продукти",
+    "budgetPlaceholder": "0.00",
+    "items": "продукта",
+    "noBudget": "Без бюджет",
+    "total": "Общо",
+    "emojiSearchPlaceholder": "Търси...",
+    "editMenuBtn": "Редактирай",
+    "deleteMenuBtn": "Изтрий",
+    "deleteListTitle": "Изтрий списъка?",
+    "deleteListWarning": "Сигурни ли сте, че искате да изтриете този списък? Ще бъдат изтрити и всички продукти в списъка. Това действие не може да бъде отменено.",
+    "deleteListBtn": "Изтрий"
+  },
+  "history": {
+    "title": "История на покупките",
+    "subtitle": "Преглед на всички продукти, които сте закупили.",
+    "totalItemsPurchased": "Общо закупени продукти",
+    "totalSpent": "Общ разход",
+    "searchPlaceholder": "Търси продукти или списъци...",
+    "noItems": "Няма закупени продукти",
+    "noMatches": "Няма продукти, отговарящи на търсенето",
+    "at": "в",
+    "total": "Общо"
+  },
+  "shoppingList": {
+    "manageItems": "Управлявайте списъка си за пазаруване.",
+    "goBack": "Назад",
+    "addItem": "Добави продукт",
+    "listNotFound": "Списъкът не е намерен.",
+    "spentInfo": "Показва количеството похарчени пари до момента.",
+    "budgetExceeded": "(Бюджетът е превишен с {{percentage}}%)",
+    "clear": "Изчисти",
+    "clearButton": "Изчисти",
+    "clearConfirmTitle": "Изчисти списък?",
+    "clearConfirmWarning": "Това ще изтрие всички продукти и ще нулира похарчения бюджет.",
+    "confirmClear": "Изчисти",
+    "sort": "Сортиране",
+    "sortBy": "Сортирай по",
+    "sortByPriority": "Приоритет",
+    "sortByPrice": "Цена",
+    "sortByName": "Име",
+    "noItems": "Няма продукти.",
+    "itemCount_one": "продукт",
+    "itemCount_other": "продукта",
+    "itemMarkedPurchased": "Продуктът е маркиран като закупен",
+    "savedToHistory": "Запазено в историята на вашите покупки."
+  },
+  "items": {
+    "priority": "Приоритет",
+    "higher": "По-висок",
+    "highest": "Най-висок",
+    "normal": "Нормален",
+    "quantity": "Количество",
+    "price": "Цена",
+    "note": "Бележка",
+    "link": "Линк",
+    "total": "Общо",
+    "edit": "Редактирай",
+    "delete": "Изтриване",
+    "deleteItemTitle": "Сигурни ли сте?",
+    "deleteItemWarning": "Този продукт ще бъде изтрит от списъка.",
+    "confirmDelete": "Изтрий",
+    "cancel": "Отказ",
+    "markPurchased": "Маркирай като закупен",
+    "priorityHighest": "Най-висок приоритет",
+    "priorityHigher": "Висок приоритет",
+    "priorityNormal": "Нормален приоритет",
+    "qty": "Количество",
+    "each": "Ед. цена",
+    "open": "Отвори линк",
+    "openLink": "Отвори линк на продукта",
+    "noLink": "Няма линк на продукта",
+    "item": "Продукт"
+  },
+  "modals": {
+    "editItem": {
+      "title": "Редактирай продукт",
+      "addTitle": "Добави нов продукт",
+      "itemName": "Име на продукта",
+      "itemNamePlaceholder": "напр. Зарядно за телефон",
+      "quantity": "Количество",
+      "quantityPlaceholder": "1",
+      "price": "Цена (за единица)",
+      "pricePlaceholder": "0.00",
+      "priority": "Приоритет",
+      "priorityNormal": "Нормален",
+      "priorityHigher": "По-висок",
+      "priorityHighest": "Най-висок",
+      "link": "Линк към продукта (по желание)",
+      "linkPlaceholder": "https://...",
+      "notes": "Бележка (по желание)",
+      "notesPlaceholder": "Добави бележка...",
+      "image": "Линк към изображение (по желание)",
+      "imagePlaceholder": "https://example.com/image.jpg",
+      "noImage": "Няма изображение",
+      "note": "Бележка",
+      "noNote": "Няма",
+      "updateBtn": "Запази",
+      "addBtn": "Добави продукт",
+      "saving": "Запазване...",
+      "cancelBtn": "Отказ"
+    },
+    "listForm": {
+      "createTitle": "Създай нов списък",
+      "editTitle": "Редактирай списък",
+      "listName": "Име на списъка",
+      "budget": "Бюджет",
+      "create": "Създай списък",
+      "update": "Запази",
+      "cancel": "Отказ"
+    },
+    "confirm": {
+      "deleteItem": "Сигурни ли сте?",
+      "deleteItemMessage": "Този продукт ще бъде изтрит от списъка.",
+      "confirmDelete": "Изтрий",
+      "cancel": "Отказ",
+      "deleting": "Изтриване..."
+    }
+  },
+  "loading": {
+    "loading": "Зареждане..."
+  },
+  "layouts": {
+    "dashboard": {
+      "settingsAriaLabel": "Настройки",
+      "logoutAriaLabel": "Изход",
+      "toggleMenuAriaLabel": "Превключване на меню"
+    }
+  }
+}
