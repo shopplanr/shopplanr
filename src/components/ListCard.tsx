@@ -29,7 +29,6 @@ interface ListCardProps {
 export default function ListCard({
 	list,
 	itemCount,
-	totalCost,
 	currencyFormatter,
 	onUpdateEmoji,
 	onUpdate,
