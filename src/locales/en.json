@@ -175,7 +175,7 @@
     "budgetPlaceholder": "0.00",
     "items": "items",
     "noBudget": "No budget",
-    "total": "Total",
+    "remaining": "Remaining",
     "emojiSearchPlaceholder": "Search...",
     "editMenuBtn": "Edit",
     "deleteMenuBtn": "Delete",

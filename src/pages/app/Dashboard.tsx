@@ -209,7 +209,7 @@ export default function Dashboard() {
                     <div className="w-full space-y-8 px-2 md:px-0 md:pr-8 pb-7">
                         <div className="flex flex-col gap-6">
                             <div className="rounded-2xl border border-text/10 bg-white p-6">
-                                <h2 className="text-3xl font-bold text-text">{t('dashboard.title', { email: user?.email })}</h2>
+                                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-text break-words">{t('dashboard.title', { email: user?.email })}</h2>
                                 <p className="text-text/60 mt-2">{t('dashboard.subtitle')}</p>
                                 <div className="mt-4 flex flex-col md:flex-row gap-3">
                                     <Button onClick={() => navigate('/lists')} className="w-full md:w-auto">{t('dashboard.goToLists')}</Button>

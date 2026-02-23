@@ -175,7 +175,7 @@
     "budgetPlaceholder": "0.00",
     "items": "продукта",
     "noBudget": "Без бюджет",
-    "total": "Общо",
+    "remaining": "Оставащи",
     "emojiSearchPlaceholder": "Търси...",
     "editMenuBtn": "Редактирай",
     "deleteMenuBtn": "Изтрий",

@@ -56,6 +56,7 @@ export default function ListCard({
 
 	const budget = Number(list.budget ?? 0)
 	const spent = Number(list.spent ?? 0)
+	const remaining = budget > 0 ? Math.max(0, budget - spent) : 0
 	const budgetPercentage = budget > 0 ? (spent / budget) * 100 : 0
 
 	const openMenu = () => {
@@ -252,8 +253,8 @@ export default function ListCard({
 				</div>
 				<div className="hidden md:flex items-center gap-2 shrink-0">
 					<div className="text-right">
-						<p className="text-xs text-text/50">{t('lists.total')}</p>
-						<p className="text-base md:text-lg font-semibold text-text whitespace-nowrap">{currencyFormatter.format(totalCost)}</p>
+						<p className="text-xs text-text/50">{t('lists.remaining')}</p>
+						<p className="text-base md:text-lg font-semibold text-text whitespace-nowrap">{currencyFormatter.format(remaining)}</p>
 					</div>
 					<div className="flex items-center gap-2 pl-2 border-l border-text/10">
 						<div className="relative" ref={desktopMenuRef}>
@@ -345,8 +346,8 @@ export default function ListCard({
 				</div>
 				<div className="flex items-center gap-2">
 					<div className="text-right">
-						<p className="text-xs text-text/50">{t('lists.total')}</p>
-						<p className="text-sm font-semibold text-text">{currencyFormatter.format(totalCost)}</p>
+						<p className="text-xs text-text/50">{t('lists.remaining')}</p>
+						<p className="text-sm font-semibold text-text">{currencyFormatter.format(remaining)}</p>
 					</div>
 					<div className="relative" ref={mobileMenuRef}>
 						<Button
